@@ -41,4 +41,14 @@ function validateCred(arr) {
     return sum % 10 === 0;
 }
 
+function findInvalidCards(arr) {
+    const invalidCards = arr.filter(cards => !validateCred(arr))
+    return invalidCards;
+}
+
+
+
+
+
 console.log(validateCred(valid1));
+console.log(findInvalidCards(invalid2));
