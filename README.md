@@ -1,2 +1,2 @@
-# credit-card-checker
+# Credit card checker
 Project for codecademy full-stack engineer career path
